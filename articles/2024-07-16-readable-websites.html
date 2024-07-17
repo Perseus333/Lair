@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" line-width="off" color-scheme="off" font="off" margins="off" line-spacing="off">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pretty Website</title>
+    <link rel="stylesheet" href="../styles/simple-css.css">
+</head>
+<body>
+    <h1>Simple Website</h1>
+    <em>16/07/2024</em>
+    <p>This is an example website. It contains some text, but without proper formatting it is a pain to read. In this sort of interactive guide, I will show you how just a few lines of CSS can help your website become readable.</p>
+    
+    <h2>Line Width</h2>
+    <p>As you can see, this text goes from one side of your screen to the other, making the lines difficult to follow. This makes your eyes move a lot side to side, specially when changing lines. This can easily be solved by reducing the width of the lines. Somewhere around 60 characters give or take 20 chars should do the trick. Let's see how it looks!</p>
+    <button type="button" line-width-toggle>Toggle Width</button>
+    <br>
+    <h2>Margins</h2>
+    <p>Right now we don't have any margins and the text begins on the very left side of the screen, we can fix this by putting the text into the middle of the screen, now that we have a much narrower line width. Try it out!</p>
+    <button type="button" margins-toggle>Toggle Margins</button>
+    <br>
+    <h2>Line Spacing</h2>
+    <p>Right now, all the lines are very clamped together and it can be easy to jump from one to the other accidentally. We can prevent this by just adding a bit more space between the lines, so that our eyes will have an easier time reading the content. This is a really useful tool, however, it should not be abused, as too much line spacing could cause the site to be ugly and even to diminish the quality of the reading. I found out that the best line height is about 1.5-2.5em (where em is the height of the text). Note, that the line-height heavily depends on the font. Let's see if it makes a difference!</p>
+    <button type="button" line-spacing-toggle>Toggle Line Height</button>
+    <br>
+    <h2>Color Scheme</h2>
+    <p>There are a lot of colorschemes that you can use to make your website convey certain messages. You can use warm colors to make it feel cozy, or you can use darker themes to make it more readable. You can also use just grayscale, and that will greatly improve the quality of the reading. Just remember, that the top priority should be to make the text readable. Here, we will use a very simple grayscale color palette.</p>
+    <button type="button" color-scheme-toggle>Toggle Colorscheme</button>
+    <br>
+    <h2>Fonts</h2>
+    <p>By default, browsers use "Times New Roman" as their default font in the case that the website doesn't provide one. Times new roman is not the most appealing of fonts due to its variable stroke width. We can change that to something easier on the eyes.</p>
+    <p>Click the following toggle to use a serif font for this website</p>
+    <button type="button" font-toggle>Toggle Font</button>
+    <br>
+    <h2>Conclusion</h2>
+    As you can see, it doesn't take much to make a cool, readable website with just a few lines of css. Below you will find a codeblock that you can copy or take inspiration from for your future or present websites. Happy webbing!
+    <h2>The CSS code</h2>
+    <pre>
+    <code>
+    body {
+        width: 60ch;
+        margin: auto;
+        line-height: 2em;
+        color: #d9d9d9;
+        background-color: #404040;
+        font-family: Verdana;
+    }
+    </code>
+    </pre>
+    <script src="../scripts/simple-css.js"></script>
+</body>
+</html>

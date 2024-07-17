@@ -1,0 +1,45 @@
+[line-width="off"] {
+    --line-width: auto;
+}
+[line-width="on"] {
+    --line-width: 65ch;
+}
+
+[margins="off"] {
+    --margin: 0;
+}
+[margins="on"] {
+    --margin: auto;
+}
+
+[line-spacing="off"] {
+    --line-height: normal;
+}
+[line-spacing="on"] {
+    --line-height: 2em;
+}
+
+[color-scheme="off"] {
+    --bg: white;
+    --text: black;
+}
+[color-scheme="on"] {
+    --bg: #404040;
+    --text: #d9d9d9;
+}
+
+[font="off"] {
+    --font: "Times New Roman";
+}
+[font="on"] {
+    --font: "Verdana";
+}
+
+body {
+    width: var(--line-width);
+    color: var(--text);
+    background-color: var(--bg);
+    font-family: var(--font);
+    margin: var(--margin);
+    line-height: var(--line-height);
+}
