@@ -1,5 +1,5 @@
 TO DO
-- [ ] Publish on Github
+- [x] Publish on Github
 - [ ] Github actions that automatically runs list-articles.py on commit.
 - [ ] Add various diffent themes
   - [ ] TTY
