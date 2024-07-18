@@ -1,2 +1,0 @@
-# Lair
-A cozy website
