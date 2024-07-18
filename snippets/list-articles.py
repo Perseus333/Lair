@@ -18,5 +18,4 @@ def generate_files_json(directory, output_file):
 if __name__ == "__main__":
     articles_directory = 'articles'
     output_file = os.path.join('snippets', 'article-list.json')
-    html_files = generate_files_json(articles_directory, output_file)
-    print(f"{output_file} has been generated with {len(html_files)} files.")
+    generate_files_json(articles_directory, output_file)
