@@ -5,7 +5,8 @@ function saveTheme(theme) {
 
 
 function loadTheme() {
-    let theme = localStorage.getItem('theme') || 'default-theme'; // Provide a default theme if none is set
+    /* Load the css of that theme*/
+    let theme = localStorage.getItem('theme') || 'pixel-forest'; // Provide a default theme if none is set
     let themePath = '../styles/themes/' + theme + '.css';
     
     var head = document.getElementsByTagName('head')[0];
@@ -15,7 +16,7 @@ function loadTheme() {
     
     head.appendChild(link);
 
-    /* Load any js that comes with that theme */
+    /* Load any js that may come with that theme */
     try {
         var body = document.getElementsByTagName('body')[0];
         var scriptPath = '../scripts/theme-scripts/' + theme + '.js';
