@@ -1,21 +1,11 @@
-:root {
-    /*Everforest Colortheme*/
-    --back-bg: #232A2E;
-    --content-bg: #343F44;
-    --header-bg: #232A2E;
-    --text: #D3C6AA;
-    --links: #83C092;
-
-    font-family: "Green Screen";
-    scroll-behavior: smooth;
-}
-
 * {
     /*To remove browser added spaces*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: var(--text);
+    font-family: var(--font-family);
+    scroll-behavior: smooth;
 }
 
 .svg-background {
@@ -65,8 +55,8 @@ ul, ol {
 
 
 
-.text {
-    font-size: 17px; 
+.text, p, a {
+    font-size: var(--font-size); 
 }
 
 a {

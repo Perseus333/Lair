@@ -1,0 +1,12 @@
+:root {
+    /*2 color grayscale colorscheme*/
+    --back-bg: #404040;
+    --content-bg: #404040;
+    --header-bg: #404040;
+    --text: #d9d9d9;
+    --links: #ffffff;
+
+    /*Average readable font*/
+    --font-family: "Verdana";
+    --font-size: "10px";
+}

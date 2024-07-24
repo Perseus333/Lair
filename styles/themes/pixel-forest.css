@@ -1,0 +1,12 @@
+:root {
+    /*Everforest Colortheme*/
+    --back-bg: #232A2E;
+    --content-bg: #343F44;
+    --header-bg: #232A2E;
+    --text: #D3C6AA;
+    --links: #83C092;
+
+    /*Pixelated Font*/
+    --font-family: "Green Screen";
+    --font-size: "17px";
+}
