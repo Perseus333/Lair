@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'GreenScreen';
+    src: url('../../fonts/GreenScreen/GreenScreen.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /*2 color grayscale colorscheme*/
+    --back-bg: #0f0d1a;
+    --content-bg: #0f0d1a;
+    --header-bg: #0f0d1a;
+    --text: #fa5f71;
+    --links: #9436f6;
+
+    /*Average readable font*/
+    --font-family: "AlienEncounters";
+    --font-size: "10px";
+}

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "GreenScreen";
+    src: url(../../fonts/GreenScreen/GreenScreen.ttf);
+}
+
 :root {
     /*Everforest Colortheme*/
     --back-bg: #232A2E;
@@ -7,6 +12,6 @@
     --links: #83C092;
 
     /*Pixelated Font*/
-    --font-family: "Green Screen";
+    --font-family: "GreenScreen";
     --font-size: "17px";
 }
