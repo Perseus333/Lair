@@ -25,6 +25,8 @@ body {
     background-color: var(--back-bg);
     background-size: cover;
     background-image: var(--back-bg-img);
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 #header {
