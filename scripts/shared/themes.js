@@ -5,6 +5,7 @@ function saveTheme(theme) {
 
 
 function loadTheme() {
+
     /* Load the css of that theme*/
     let theme = localStorage.getItem('theme') || 'pixel-forest'; // Provide a default theme if none is set
     let themePath = '../styles/themes/' + theme + '.css';
@@ -29,10 +30,26 @@ function loadTheme() {
         body.appendChild(script);
     
     } catch(error) {
-        // Do nothing
+        console.log(theme + ' had no script found')
+    }
+
+    /*Try to load any background image that may come with the theme*/
+    try {
+        var body = document.getElementsByTagName('body')[0];
+        var bgImgPath = '../media/themes/backgrounds/' + theme + '.jpg';
+        var background = document.createElement('img');
+        background.id = 'bg-img';
+        background.src = bgImgPath;
+        script.onload = function() {
+            console.log(theme + ' background image loaded and executed.');
+        };
+        body.appendChild(script);
+    
+    } catch(error) {
+        console.log(theme + 'had no background found');
     }
 
 }
-
+console.log('themes.js found');
 document.addEventListener('DOMContentLoaded', loadTheme);
 

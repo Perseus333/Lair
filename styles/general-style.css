@@ -24,6 +24,7 @@ h1 {
 body {
     background-color: var(--back-bg);
     background-size: cover;
+    background-image: var(--back-bg-img);
 }
 
 #header {
@@ -71,8 +72,10 @@ a {
     max-width: 68ch;
     line-height: 2.5em;
     background-color: var(--content-bg);
-    padding: 1em;
+    background-size: cover;
+    padding: 1.5em;
     margin-bottom: 2em;
+    min-height: 70vh;
 }
 
 .illustration {

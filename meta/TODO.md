@@ -6,6 +6,7 @@ TO DO
   - [ ] Make it actually write in the file
 - [ ] Add various diffent themes
   - [ ] TTY
+  - [ ] Synthwave
   - [ ] Vaporwave
   - [ ] Osaka
 - [ ] Add breadcrumb in header
